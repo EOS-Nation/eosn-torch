@@ -39,7 +39,7 @@ export function cleosTransfer(from: string, to: string, quantity: string, memo: 
 } = {}) {
     const contract = options.constract || "eosnationinc"
     const delaySec = options.delaySec || 10;
-    const expiration = options.expiration || 36000;
+    const expiration = options.expiration || 604800;
 
     return cleos<Transaction>([
         "transfer", from, to, quantity, memo,

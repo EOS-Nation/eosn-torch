@@ -1,9 +1,10 @@
 [
-    {"from": "deniscarrier", "to": "stephanebiss", "memo": "Denis => Steph"},
-    {"from": "stephanebiss", "to": "eosnationdan", "memo": "Steph => Dan"},
-    {"from": "eosnationdan", "to": "daverexeosn1", "memo": "Dan => Dave"},
-    {"from": "daverexeosn1", "to": "hackerdarwin", "memo": "Dave => Matthew"},
-    {"from": "hackerdarwin", "to": "larosenonaka", "memo": "Matthew => Yves"},
-    {"from": "larosenonaka", "to": "vincentgeosn", "memo": "Yves => Vincent"},
-    {"from": "vincentgeosn", "to": "deniscarrier", "memo": "Vincent => Denis"}
+    {"account": "deniscarrier", "name": "Denis Carriere", "memo": "start"},
+    {"account": "stephanebiss", "name": "Stephane Bisson", "memo": "bar"},
+    {"account": "eosnationdan", "name": "Daniel Keyes", "memo": "blah"},
+    {"account": "daverexeosn1", "name": "Dave Rex", "memo": "corn"},
+    {"account": "hackerdarwin", "name": "Matthew Darwin", "memo": "dog"},
+    {"account": "larosenonaka", "name": "Yves La Rose", "memo": "cat"},
+    {"account": "vincentgeosn", "name": "Vincent Grenier", "memo": "cow"},
+    {"account": "deniscarrier", "name": "Denis Carriere", "memo": "end"}
 ]

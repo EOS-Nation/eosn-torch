@@ -12,17 +12,24 @@ import members from "./members.json";
     const executor = "eosnationftw";
     let transaction: Transaction | null = null;
     const actions: Action[] = [];
+    const names = new Set();
 
     // Write Transactions to `actions/*.json`
-    for (const member of members) {
-        const {from, to} = member;
+    let index = 0;
+    for (const currentMember of members) {
+        const previousMember = members[index - 1];
+        index += 1;
+        if (!previousMember) continue;
+
+        const from = previousMember.account;
+        const to = currentMember.account;
         const proposalName = from;
+        const memo = `EOSN 🔥 ${previousMember.memo}`;
 
         // Filepaths
         const filepaths = getFilepaths(from);
 
         // Transfer
-        const memo = `EOSN 🔥 ${member.memo}`;
         await eoscTransfer(from, to, "1 CHROT", memo, {delaySec, writeTransaction: filepaths.transfer})
         const transfer = load.sync<Transaction>(filepaths.transfer);
         console.log(transfer.actions);
@@ -52,12 +59,15 @@ import members from "./members.json";
         actions.push(propose.actions[0])
         actions.push(approve.actions[0])
         actions.push(exec.actions[0])
+        names.add(from);
     }
     if (transaction) {
         transaction.actions = actions;
         const filepath = path.join(__dirname, `eosn-torch.json`);
         write.sync(filepath, transaction);
+        console.log(`eosc multisig propose ${proposer} torch eosn-torch.json --request ${Array.from(names).join(",")}`)
     }
+
 })().catch(e => console.error(e));
 
 function getFilepaths(from: string) {
