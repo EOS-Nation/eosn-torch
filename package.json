@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "torch",
+  "version": "0.1.0",
+  "description": "MSIG EOSN Torch",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "Denis Carriere <denis@eosnation.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "load-json-file": "*",
+    "write-json-file": "*"
+  }
+}

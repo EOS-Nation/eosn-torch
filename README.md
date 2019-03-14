@@ -1,2 +1,5 @@
-# torch
-MSIG EOSN Torch
+# MSIG EOSN Torch
+
+```bash
+$ npm start
+```

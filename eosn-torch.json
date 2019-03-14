@@ -1,0 +1,246 @@
+{
+	"chain_id": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+	"expiration": "2019-03-15T03:42:57",
+	"ref_block_num": 24980,
+	"ref_block_prefix": 4164391590,
+	"max_net_usage_words": 0,
+	"max_cpu_usage_ms": 0,
+	"delay_sec": 0,
+	"context_free_actions": [],
+	"actions": [
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331557095bbd720eca64a017095bbd720eca64a00000000a8ed3232401f8b5c93616b8b01a400000a000180a69bd465333155000000572d3ccdcd017095bbd720eca64a00000000a8ed3232397095bbd720eca64a80b13b6a9a5655c60100000000000000004348524f54000018454f534e20f09f94a52044656e6973203d3e20537465706800"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "deniscarrier",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331557095bbd720eca64a7095bbd720eca64a00000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331557095bbd720eca64ac0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315580b13b6a9a5655c60180b13b6a9a5655c600000000a8ed3232411f8b5c9561cc75cea20000ac02000180a69bd465333155000000572d3ccdcd0180b13b6a9a5655c600000000a8ed32323780b13b6a9a5655c6304d9ad4653331550100000000000000004348524f54000016454f534e20f09f94a5205374657068203d3e2044616e00"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "stephanebiss",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315580b13b6a9a5655c680b13b6a9a5655c600000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315580b13b6a9a5655c6c0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155304d9ad46533315501304d9ad46533315500000000a8ed3232421f8b5c9661c6923ef30000d804000180a69bd465333155000000572d3ccdcd01304d9ad46533315500000000a8ed323236304d9ad4653331551026a6aaababb6490100000000000000004348524f54000015454f534e20f09f94a52044616e203d3e204461766500"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "eosnationdan",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155304d9ad465333155304d9ad46533315500000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155304d9ad465333155c0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331551026a6aaababb649011026a6aaababb64900000000a8ed3232421f8b5c9861859498b800008407000180a69bd465333155000000572d3ccdcd011026a6aaababb64900000000a8ed32323a1026a6aaababb649301dbf265d0591690100000000000000004348524f54000019454f534e20f09f94a52044617665203d3e204d61747468657700"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "daverexeosn1",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331551026a6aaababb6491026a6aaababb64900000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331551026a6aaababb649c0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155301dbf265d05916901301dbf265d05916900000000a8ed3232431f8b5c9961e9efcdbc0000b009000180a69bd465333155000000572d3ccdcd01301dbf265d05916900000000a8ed32323a301dbf265d05916960a099742a4caf890100000000000000004348524f54000019454f534e20f09f94a5204d617474686577203d3e205976657300"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "hackerdarwin",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155301dbf265d059169301dbf265d05916900000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad465333155301dbf265d059169c0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315560a099742a4caf890160a099742a4caf8900000000a8ed3232441f8b5c9b61002c10150000dc0b000180a69bd465333155000000572d3ccdcd0160a099742a4caf8900000000a8ed32323a60a099742a4caf893031552c4f85a6db0100000000000000004348524f54000019454f534e20f09f94a52059766573203d3e2056696e63656e7400"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "larosenonaka",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315560a099742a4caf8960a099742a4caf8900000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad46533315560a099742a4caf89c0f39ad465333155"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "propose",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331553031552c4f85a6db013031552c4f85a6db00000000a8ed3232441f8b5c9c613fd9501f0000880e000180a69bd465333155000000572d3ccdcd013031552c4f85a6db00000000a8ed32323b3031552c4f85a6db7095bbd720eca64a0100000000000000004348524f5400001a454f534e20f09f94a52056696e63656e74203d3e2044656e697300"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "approve",
+			"authorization": [
+				{
+					"actor": "vincentgeosn",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331553031552c4f85a6db3031552c4f85a6db00000000a8ed3232"
+		},
+		{
+			"account": "eosio.msig",
+			"name": "exec",
+			"authorization": [
+				{
+					"actor": "eosnationftw",
+					"permission": "active"
+				}
+			],
+			"data": "c0f39ad4653331553031552c4f85a6dbc0f39ad465333155"
+		}
+	],
+	"transaction_extensions": [],
+	"signatures": [],
+	"context_free_data": []
+}

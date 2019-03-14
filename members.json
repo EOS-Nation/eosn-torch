@@ -1,0 +1,9 @@
+[
+    {"from": "deniscarrier", "to": "stephanebiss", "memo": "Denis => Steph"},
+    {"from": "stephanebiss", "to": "eosnationdan", "memo": "Steph => Dan"},
+    {"from": "eosnationdan", "to": "daverexeosn1", "memo": "Dan => Dave"},
+    {"from": "daverexeosn1", "to": "hackerdarwin", "memo": "Dave => Matthew"},
+    {"from": "hackerdarwin", "to": "larosenonaka", "memo": "Matthew => Yves"},
+    {"from": "larosenonaka", "to": "vincentgeosn", "memo": "Yves => Vincent"},
+    {"from": "vincentgeosn", "to": "deniscarrier", "memo": "Vincent => Denis"}
+]
