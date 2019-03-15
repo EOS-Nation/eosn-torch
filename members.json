@@ -1,10 +1,10 @@
 [
-    {"account": "deniscarrier", "name": "Denis Carriere", "memo": "start"},
-    {"account": "stephanebiss", "name": "Stephane Bisson", "memo": "bar"},
-    {"account": "eosnationdan", "name": "Daniel Keyes", "memo": "blah"},
-    {"account": "daverexeosn1", "name": "Dave Rex", "memo": "corn"},
-    {"account": "hackerdarwin", "name": "Matthew Darwin", "memo": "dog"},
-    {"account": "larosenonaka", "name": "Yves La Rose", "memo": "cat"},
-    {"account": "vincentgeosn", "name": "Vincent Grenier", "memo": "cow"},
-    {"account": "deniscarrier", "name": "Denis Carriere", "memo": "end"}
+    {"account": "deniscarrier", "memo": "start"},
+    {"account": "stephanebiss", "memo": "bar"},
+    {"account": "eosnationdan", "memo": "blah"},
+    {"account": "daverexeosn1", "memo": "corn"},
+    {"account": "hackerdarwin", "memo": "dog"},
+    {"account": "larosenonaka", "memo": "cat"},
+    {"account": "vincentgeosn", "memo": "cow"},
+    {"account": "deniscarrier", "memo": "end"}
 ]
