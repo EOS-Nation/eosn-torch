@@ -10,8 +10,7 @@ import members from "./eosn-torch.members.json";
     // Globla Configs
     let delaySec = 0;
     const delaySecInterval = config.delaySec;
-    const {quantity, contract, proposer, executor, expiration, proposalName} = config;
-    const filename = "eosn-torch.json";
+    const {filename, quantity, contract, proposer, executor, expiration, proposalName} = config;
     const permission = "@active";
 
     let transaction: Transaction | null = null;
