@@ -1,0 +1,9 @@
+{
+    "contract": "eosnationinc",
+    "quantity": "1 CHORT",
+    "proposer": "eosnationftw",
+    "proposalName": "torch",
+    "executor": "eosnationftw",
+    "delaySec": 180,
+    "expiration": 604800
+}
