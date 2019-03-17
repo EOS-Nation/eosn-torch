@@ -1,5 +1,7 @@
 # EOSN Torch 🔥
 
+This library creates a multi-account MSIG transaction which pre-approves the TORCH token transfer.
+
 ## Configure
 
 **eosn-torch.config.json**
