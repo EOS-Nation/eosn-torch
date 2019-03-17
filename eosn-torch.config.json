@@ -1,10 +1,10 @@
 {
     "contract": "passthetorch",
     "quantity": "1 TORCH",
-    "proposer": "eosnationftw",
-    "proposalName": "torch",
-    "executor": "eosnationftw",
+    "proposer": "eosnationinc",
+    "proposalName": "transfer",
+    "executor": "eosnationinc",
     "filename": "eosn-torch.json",
-    "delaySec": 180,
+    "delaySec": 120,
     "expiration": 604800
 }
